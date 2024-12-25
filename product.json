@@ -1,0 +1,112 @@
+[
+    {
+    "id":1,
+    "name":"Summits 12980TK WSL",
+    "price":"2999TL",
+    "oldPrice": null,
+    "imgSource":"images/erkekspor1.jpg",
+    "type":"SPOR"
+    },
+    {
+        "id":2,
+        "name":"Summits 12989TK WSL",
+        "price":"2999TL",
+        "oldPrice": null,
+        "imgSource":"images/kadinspor1.jpg",
+        "type":"SPOR"
+    },
+    {
+        "id":3,
+        "name":"Summits 12981TK WSL",
+        "price":"2999TL",
+        "oldPrice": null,
+        "imgSource":"images/erkekspor2.jpg",
+        "type":"SPOR"
+
+    },
+    {
+        "id":4,
+        "name":" Summits 12990TK WSL",
+        "price":"2999TL",
+        "oldPrice": null,
+        "imgSource":"images/kadinspor2.jpg",
+        "type":"SPOR"
+    },
+    {
+        "id":5,
+        "name":"Summits 12980TK WSL",
+        "price":"2999TL",
+        "oldPrice": null,
+        "imgSource":"images/kadinspor1.jpg",
+        "type":"SPOR"
+    },
+    {
+        "id":6,
+        "name":"Summits 12981TK WSL",
+        "price":"2499TL",
+        "oldPrice": null,
+        "imgSource":"images/kadinspor2.jpg",
+        "type":"SPOR"
+
+    },
+    {
+        "id":7,
+        "name":"Summits 12982TK WSL",
+        "price":"1999TL",
+        "oldPrice": null,
+        "imgSource":"images/kadinspor3.jpg",
+        "type":"SPOR"
+    },
+    {
+        "id":8,
+        "name":"Summits 12983TK WSL",
+        "price":"4999TL",
+        "oldPrice": null,
+        "imgSource":"images/kadinspor4.jpg",
+        "type":"SPOR"
+    },
+    {
+        "id":9,
+        "name":"Summits 12984TK WSL",
+        "price":"3599TL",
+        "oldPrice": null,
+        "imgSource":"images/kadinspor5.jpg" ,
+        "type":"SPOR"
+
+    },
+    {
+        "id":10,
+        "name":" Summits 12985TK WSL",
+        "price":"3299TL",
+        "oldPrice": null,
+        "imgSource":"images/kadinspor6.jpg" ,
+        "type":"SPOR"
+        
+    },
+    {   
+        "id":11,
+        "name":" Summits 12986TK WSL",
+        "price":"1899TL",
+        "oldPrice": null,
+        "imgSource":"images/kadinspor7.jpg" ,
+        "type":"SPOR"
+
+    },
+    {
+        "id":12,
+        "name":" Summits 12987TK WSL",
+        "price":"1899TL",
+        "oldPrice": null,
+        "imgSource":"images/kadinspor8.jpg" ,
+        "type":"SPOR"
+    },
+    {
+        "id":13,
+        "name":"Summits 12988TK WSL",
+        "price":"1499TL",
+        "oldPrice": null,
+        "imgSource":"images/kadinspor9.jpg" ,
+        "type":"SPOR"
+        
+    }
+]

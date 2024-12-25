@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Giriş Yap-Kayıt Ol</title>
+    
+    <link rel="icon" href="images/logo.jpg" />
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+        background: url("images/kadin1.jpg") left top / 50% 100% no-repeat,
+          url("images/erkek1.jpg") right top / 50% 100% no-repeat;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+        margin: 0;
+        background-color: #f4f4f9;
+      }
+      
+
+      .main-container {
+        display: flex;
+        align-items: center;
+        background-color: #fff;
+        border-radius: 10px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        width: 100%;
+        max-width: 400px;
+        overflow: hidden;
+        position: relative;
+      }
+
+      .login-container {
+        flex: 1;
+        padding: 20px;
+        text-align: center;
+      }
+
+      .login-container h1 {
+        margin-bottom: 20px;
+        font-size: 24px;
+        color: #333;
+      }
+
+      .login-container h2 {
+        margin-bottom: 20px;
+        font-size: 24px;
+        color: #333;
+      }
+
+      .login-container form {
+        display: flex;
+        flex-direction: column;
+      }
+
+      .login-container input {
+        margin-bottom: 15px;
+        padding: 10px;
+        font-size: 16px;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+      }
+
+      .login-container input:focus {
+        outline: none;
+        border-color: #007bff;
+      }
+
+      .login-container button {
+        padding: 10px;
+        font-size: 16px;
+        background-color: #000000;
+        color: #fff;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+      }
+
+      .login-container button:hover {
+        background-color: #0093a7;
+      }
+
+      .login-container p {
+        margin-top: 10px;
+        font-size: 14px;
+        color: #666;
+      }
+
+      .login-container a {
+        color: #000000;
+        text-decoration: none;
+      }
+
+      .login-container a:hover {
+        text-decoration: underline;
+      }
+    </style>
+  </head>
+  <body>
+    
+    <div class="main-container">
+      <div class="login-container">
+        <h1>BOB</h1>
+        <h2>Hoş Geldiniz</h2>
+        <form action="/login" method="POST">
+          <input
+            type="text"
+            name="username"
+            placeholder="Kullanıcı Adı"
+            required
+          />
+          <input type="password" name="password" placeholder="Şifre" required />
+          <button type="submit">Giriş Yap</button>
+          <nav>
+            <a href="index.html"> Ana Sayfa</a>
+          </nav>
+
+        </form>
+        <p>Hesabınız yok mu? <a href="/register">Kayıt Ol</a></p>
+      </div>
+    </div>
+  </body>
+</html>
